@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(90, 0, 173);
+    margin: 0;
+   
+}
+
+h1{
+    color: red;
+    background-color: black;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: 48px;
+}
+
+div{
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: 'Old Standard TT', serif;
+
+}
+header{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+   
+   
+    
+}
+
+nav {
+    font-size: 14px;
+    position: relative;
+    background-color: rgb(120, 0, 0);
+   margin-top: 6px;
+   margin-bottom: 6px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+nav::before, nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: -2px;
+    background-color: white;
+}
+
+
+
+article{
+    background-color: rgb(0, 0, 100);
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(210, 0, 0);
+    padding: 50px;
+    text-align: center;
+    font-size: 27px;
+}
+.destaca-rojo {
+    color: red;
+}
+
+.centrada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.adaptable{
+    width: 100%;
+    height: auto;
+}
+
+.gif {
+
+    border-radius: 25px;
+
+
+}
+
+.destaca-celeste{
+    
+    color: rgb(0, 170, 228);
+}
+
+.sasuke{
+
+    width: 500px;
+    height: 500px;
+}
+
+.variantetexto{
+    text-size-adjust: 20;
+}
+
+.centradasin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.alineo{
+    text-align: center;
+    color: rgb(180, 0, 0);
+}
+
+.empate{
+    color: yellow;
+}
+
+h3.centrando{
+
+    text-align: center;
+}
+
+.alineovideo{
+    display: block;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: auto;
+}
+
+.naranja{
+    color: orange;
+}
+
+.poderes{
+    color: rgb(255, 45, 0);
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(180, 0, 0);
+    font-size: 32px;
+}
+
+.yellow{
+    color: red;
+    text-align: center;
+}
+
+
+
+.izquierda {
+    margin-right: 30px; 
+    border-radius: 25px;
+}
+
+.derecha {
+    margin-left: 40px; 
+    border-radius: 25px;
+}
+
+.derechakur
+{
+    margin-left: 30px;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utiliza un contenedor flex para alinear elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 100%; /* Ajusta la altura del contenedor flex */
+}
+
+nav ul li {
+    margin: 0 38px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
