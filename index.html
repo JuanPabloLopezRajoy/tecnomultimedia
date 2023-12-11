@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
-    <!--ESPACIO PARA METADATOS--> 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
     <title>La ratita presumida</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" href="nuevocss.css"> 
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"> -->
@@ -37,32 +39,20 @@
 
     <nav>
         <ul>
-            <li><a href="#Proceso">Proceso e integrantes del equipo de trabajo</a></li>
-            <li><a href="#Historia">Historia del cuento</a></li>
-            <li><a href="#Origenes">Orígenes y valor educacional</a></li>
-            <li><a href="#Eleccion">¿ Por qué elegimos este cuento?</a></li>
+            <li><a href="#Proceso">Integrantes del equipo</a></li>
+          <li><a href="#bitacora">Cosillas</a></li>
+          <li><a href="#Historia">Historia del cuento</a></li>
+          <li><a href="#Origenes">Orígenes y valores</a></li>
             <li><a href="#Ratinvaders">Rat Invaders</a></li>
         </ul>
     </nav>
     <article>
-        <u><h2 class="alineo" id="#Proceso" >Proceso e integrantes del equipo de trabajo</h2></u>
         
-
-
-        <img class="derecha" src="Imagenes/screen1.jpg" alt="">
-
-        <img class="izquierda" src="Imagenes/screen2.jpg" alt="">
-
-        <img class="derecha" src="Imagenes/proc1.jpeg" alt="">
-
-        <img class="izquierda" src="Imagenes/proc2.jpeg" alt="">
-
-        <img  class="derecha" src="Imagenes/otto1.jpeg" alt="">
-
-        <img  class="izquierda" src="Imagenes/otto2.jpeg" alt="">
+        
+       
 
        <h3 class="alineo" >Integrantes del equipo (comisión 5)</h3>
-       <a href="#arriba"><img src="Imagenes/anclarata.jpg" alt="Arriba"></a>
+       
 
        <p class="alineotexto" >Juan Pablo Lopez Rajoy</p>
        <p class="alineotexto" >91608/0</p>
@@ -72,15 +62,65 @@
        <p class="alineotexto" >Octavio Rodriguez</p>
        <p class="alineotexto" >93079/5</p>
 
-       <img 
-      class="centrada" src="Imagenes/otto3.jpeg" alt="">
-        
+       <img class="centrada" src="Imagenes/otto3.jpeg" alt="">
+
+       
+
+    
        </article>
 
 
        <article>
+        <h3 class="alineo"  id="bitacora" >Un poco de esto, un poco de aquello</h3>
+
+        <div class="row">
+            <div class="collapsible">
+              <input id="collapsible1" type="checkbox" name="collapsible">
+              <label for="collapsible1">Últimos codeos del año</label>
+              <div class="collapsible-body">
+                <img class="ajustando" src="Imagenes/screen1.jpg" alt="">
+                <img class="ajustando"  src="Imagenes/screen2.jpg" alt="">
+                <img class="ajustando"  src="Imagenes/proc1.jpeg" alt="">
+              </div>
+            </div>
+            <div class="collapsible">
+              <input id="collapsible2" type="checkbox" name="collapsible">
+              <label for="collapsible2">¿ Por qúe elegimos este cuento ?</label>
+              <div class="collapsible-body">
+                
        
-        <u></u><h2 class="alineo" id="Historia">Historia del cuento</h2></u>
+
+                <p class="texto-blanco" >Originalmente elegí este cuento para hacer mi tp 3, en su momento, porque a mi pareja le digo "rata" o "ratita" y fue una buena forma de trabajar y al mismo tiempo estar haciendo algo lindo o que me inspiraba cosas lindas. Por otro lado, dentro de la larga lista de cuentos que habia, este me parecia de los mas desconocidos y que nadie podria llegar a elegir, lo veia como el cuento marginado, rodeado de grandes historias legendarias que luego tuvieron peliculas, series, remakes, y gozan de una fama y una popularidad enorme. Entonces decidí escuchar el cuento, leerlo, y a la primera lectura me di cuenta que era una historia que deja enseñanzas, una linda historia y que encima me hacia recordar a mi pareja. En segunda instancia, para el trabajo final, con mi compañero Octavio, decidimos utilizar este cuento y posteriormente el "rat invaders" (mi tp5) porque nos parecio que podia  llegar a armarse un lindo trabajo, basandonos en un cuento que dificilmente conocieran antes, por ejemplo los profes, o los compañeros. El cuento de mi compañero era mucho mas conocido, de hecho forma parte de la literatura que un amante de las grandes historias no puede no conocer. Entonces le dimos una oportunidad a "La ratita presumida".</p>
+
+              </div>
+            </div>
+            <div class="collapsible">
+              <input id="collapsible3" type="checkbox" name="collapsible">
+              <label for="collapsible3">Nos reímos para no llorar</label>
+              <div class="collapsible-body">
+                <img src="Imagenes/nosreimos.webp" alt="">
+                <img src="Imagenes/ayudameloco.jpg" alt="">
+              </div>
+            </div>
+            <div class="collapsible">
+              <input id="collapsible4" type="checkbox" name="collapsible">
+              <label for="collapsible4">Un poco mas del proceso (?)</label>
+              <div class="collapsible-body">
+                <img class="ajustando"  src="Imagenes/otto1.jpeg" alt="">
+                <img class="ajustando"  src="Imagenes/otto2.jpeg" alt="">
+                <img class="ajustando"   src="Imagenes/proc2.jpeg" alt="">
+
+              </div>
+            </div>
+          </div>
+        
+    </article> 
+
+
+    <article> 
+        
+         
+        <h2 class="alineo" id="Historia">Historia del cuento</h2>
         <a href="#arriba"><img src="Imagenes/anclarata.jpg" alt="Arriba"></a>
         <img  class="centradasin" src="Imagenes/ratita-presumida.jpg" width="450"  height="400" alt="">
         <p class="texto-blanco" > La Ratita Presumida, también conocido como La Ratoncita Presumida, es un cuento folclórico acerca de una ratita y sus diversos pretendientes.</p>
@@ -91,17 +131,19 @@ Otras versiones tienen una tercera parte, en la que la rata cae dentro de un cal
 
 El personaje principal de la historia también puede tener diferentes representaciones, tales como una pequeña hormiga o una pequeña cucaracha.
         </p>   
-    </article> 
+         
+       </article> 
+    
+<article>
 
-
-    <article> 
-        <u></u><h2 class="alineo" id="Origenes">Orígenes y valor educacional</h2></u>
+    <h2 class="alineo" id="Origenes">Orígenes y valores</h2>
         <a href="#arriba"><img src="Imagenes/anclarata.jpg" alt="Arriba"></a>
-        <a href="#arriba"><img class="centrada" src="Imagenes/rata2.jpg" alt="Arriba"></a>
+        <a href="#arriba"><img class="centradasin"  width="600"  height="400" src="Imagenes/rata2.jpg" alt="Arriba"></a>
+        <br>
         
        
          
-         <br>
+         
          <p<br class="texto-blanco" >Este cuento parece haber tenido su origen en la tradición oral, para después pasar a la forma literaria. También, su forma literaria puede haber dado origen a tantas variaciones. La referencia más reciente de este cuento se encuentra en las obras de Fernán Caballero, en concreto en los textos Lágrimas (1839) y La Gaviota (1856), pero el cuento completo no fue escrito hasta después, en la compilación de sus obras en cuentos, oraciones, adivinanzas y refranes populares (1877). En esta versión más reciente, la ratoncita es una pequeña hormiga, pero sigue casada con un ratón, llamado Ratón Pérez. EL pequeño ratón inspiraría más tarde al Padre Coloma, quien lo convertiría en parte del folclore español tradicional, al presentarlo a sus lectores como un tipo de hada de los dientes.
 
          La versión de Fernán Caballero tiene las cuatro partes explicadas en las secciones previas. La tercera y la cuarta parte tienen un paralelismo fuerte con el cuento de hadas inglés Titty Mouse and Tatty Mouse, recogido en la primera colección de Joseph Jacobs, en el libro English Fairy Tales, de 1890. Joseph Jacobs encontró veinticinco variantes del mismo cuento gracioso por todo el mundo, desde La India hasta España, y discutió varias teorías sobre su origen.
@@ -113,40 +155,24 @@ El personaje principal de la historia también puede tener diferentes representa
          Existen un par de versiones contemporáneas que vale la pena mencionar, ya que pueden ser encontradas fácilmente en librerías infantiles: la versión de Daniel Moreton La Cucaracha Martina: un folclor caribeño, el cual parece tener su origen en la versión de Belpré y Joe Hayes, los cuales han remplazado la cucaracha por una mariposa en su cuento Mariposa o Mariposa mariposa: el feliz cuento de la mariposa.
          
          La estructura del cuento facilita la personalización y adaptación al público infantil. Puede ser también útil para enseñar a los pequeños acerca de los animales y sus diferentes sonidos, o para hacerlos participar imitando los sonidos. Finalmente, la primera parte del cuento puede servir para educar sobre los peligros, por mencionar objetos que pueden dañarlos o cosas con las que no deberían jugar.
-         <br>
-         <br>
          
-
-
-         
-       </article> 
-    
-<article>
-
-    <u><h2 class="alineo" id="Eleccion">¿ Por qúe elegimos este cuento ?</h2></u>
-    <a href="#arriba"><img src="Imagenes/anclarata.jpg" alt="Arriba"></a>
-    <img class="centradasin" src="Imagenes/242.png"  width="540" height="400" alt="">
-    <p class="texto-blanco" >Originalmente elegí este cuento para hacer mi tp 3, en su momento, porque a mi pareja le digo "rata" o "ratita" y fue una buena forma de trabajar y al mismo tiempo estar haciendo algo lindo o que me inspiraba cosas lindas. Por otro lado, dentro de la larga lista de cuentos que habia, este me parecia de los mas desconocidos y que nadie podria llegar a elegir, lo veia como el cuento marginado, rodeado de grandes historias legendarias que luego tuvieron peliculas, series, remakes, y gozan de una fama y una popularidad enorme. Entonces decidí escuchar el cuento, leerlo, y a la primera lectura me di cuenta que era una historia que deja enseñanzas, una linda historia y que encima me hacia recordar a mi pareja. En segunda instancia, para el trabajo final, con mi compañero Octavio, decidimos utilizar este cuento y posteriormente el "rat invaders" (mi tp5) porque nos parecio que podia  llegar a armarse un lindo trabajo, basandonos en un cuento que dificilmente conocieran antes, por ejemplo los profes, o los compañeros. El cuento de mi compañero era mucho mas conocido, de hecho forma parte de la literatura que un amante de las grandes historias no puede no conocer. Entonces le dimos una oportunidad a "La ratita presumida".</p>
-
-
 </article>
 
 <article>
 
-    <u><h2 class="alineo" id="Ratinvaders">La ratita presumida + Rat Invaders</h2></u>
+    <h2 class="alineo" id="Ratinvaders">La ratita presumida + Rat Invaders</h2>
     <a href="#arriba"><img src="Imagenes/anclarata.jpg" alt="Arriba"></a>
 
 
     <div class="row flex-spaces child-borders">
-        
+        <label class="paper-btn margin" for="modal-2">Reproducir</label>
       </div>
-      
+      <input class="modal-state" id="modal-2" type="checkbox">
       <div class="modal">
-        <label class="modal-bg" for="modal-1"></label>
+        <label class="modal-bg" for="modal-2"></label>
         <div class="modal-body">
-          <label class="btn-close" for="modal-1"></label>
-          <iframe src="tpfinal/index.html" frameborder="0" width="640" height="480" ></iframe>
-         
+          <link rel="stylesheet" href="tpfinal/index.html">
+        
         </div>
       </div>
 
