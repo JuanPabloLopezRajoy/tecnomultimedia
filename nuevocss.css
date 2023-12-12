@@ -119,52 +119,16 @@ nav ul {
     height: 100%; 
 }
 
-nav ul li {
-    margin: 0 38px;
-    font-size: 20px;
-}
 
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
 
 .texto-blanco {
     color: white;
 }
 
-@media (max-width: 600px){
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        height: 100%; 
-    }
-    
-    nav ul li {
-        margin: 0 38px;
-        font-size: 20px;
-    }
-    
-    nav a {
-        text-decoration: none !important;
-        border-bottom: none !important;
-        color: white;
-        font-weight: bold;
-    }
-    
-    .columna{
-        border-right: 1px solid white;
-        padding-right: 5px;
-    }
-    
+
     
 
-}
+
 
 .alineotexto
     {
@@ -193,4 +157,34 @@ nav a {
         font-family: 'Hedvig Letters Serif', serif;
     }
 
+      .card{
+        background-color: slategrey;
+      }
+
+      .nav-container {
+        display: flex;
+        justify-content: space-around; /* Ajusta según tu preferencia: space-around, space-between, etc. */
+        align-items: center; /* Ajusta según tu preferencia: center, flex-start, flex-end, etc. */
+    }
+    
+    .nav-container h3 {
+        
+        margin: 0; /* Elimina márgenes predeterminados */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+      }
       
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav a {
+        text-decoration: none;
+        padding: 10px;
+      }
