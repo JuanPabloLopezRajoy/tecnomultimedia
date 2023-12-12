@@ -3,7 +3,7 @@
 let pantallas;
 
 function setup() {
-  let canvas = createCanvas(640, 480);
+  let canvas = createCanvas(1200, 600);
   canvas.position(0, 0);
   frameRate(60);
 
