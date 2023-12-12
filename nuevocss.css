@@ -125,6 +125,13 @@ nav ul {
     color: white;
 }
 
+nav,
+nav a {
+  color: white;
+}
+
+
+
 
     
 
@@ -165,6 +172,7 @@ nav ul {
         display: flex;
         justify-content: space-around; /* Ajusta según tu preferencia: space-around, space-between, etc. */
         align-items: center; /* Ajusta según tu preferencia: center, flex-start, flex-end, etc. */
+        text-decoration: white;
     }
     
     .nav-container h3 {
@@ -175,6 +183,7 @@ nav ul {
     nav {
         display: flex;
         justify-content: space-evenly;
+        text-decoration: white;
       }
       
       nav ul {
@@ -187,4 +196,8 @@ nav ul {
       nav a {
         text-decoration: none;
         padding: 10px;
+      }
+
+      .collapsible label {
+        color: white;
       }
