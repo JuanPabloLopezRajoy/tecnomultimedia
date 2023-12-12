@@ -56,7 +56,7 @@ AButtom.mostrar();
  let CButtom = new BotonVerde ("C GATO", width /5 + 25 , height -80)
  CButtom.mostrar();
  
- let DButtom = new BotonAmarillo ("D SOLO", width /4 + 65  , height -80)
+ let DButtom = new BotonAmarillo ("D SOLA", width /4 + 65  , height -80)
  DButtom.mostrar();
  }
 if (this.indiceEstado == 9 || this.indiceEstado == 11 || this.indiceEstado == 13){
