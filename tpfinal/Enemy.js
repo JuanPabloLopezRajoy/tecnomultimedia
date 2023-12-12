@@ -37,7 +37,8 @@ class Enemy {
   move() {
     this.x += game.enemySpeed;
     if (this.x > width - this.r || this.x < this.r) {
-      game.enemySpeed *= -1.11;
+      game.enemySpeed *= -0.8;
+      this.x = constrain(this.x, this.r, width - this.r);
 
       game.sumarBaseY()
     }
